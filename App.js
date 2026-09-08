@@ -1,10 +1,14 @@
 import React, { useCallback } from 'react';
-import { View, ActivityIndicator, StyleSheet } from 'react-native';
+import { View, ActivityIndicator, StyleSheet, LogBox } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import * as SplashScreen from 'expo-splash-screen';
+
+LogBox.ignoreLogs([
+  'Property "transform" of AnimatedComponent',
+]);
 
 import { useFonts, Bungee_400Regular } from '@expo-google-fonts/bungee';
 import { LuckiestGuy_400Regular } from '@expo-google-fonts/luckiest-guy';
