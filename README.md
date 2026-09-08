@@ -1,6 +1,7 @@
 # 🕵️ Detective Bunty
 
-A premium, comedy **episodic detective game** built with **Expo + React Native**.
+A premium, comedy **episodic detective game** built with **Expo SDK 57** + React
+Native (React 19, RN 0.86, Reanimated 4, New Architecture).
 
 > The joke: you play an over-dramatic, paranoid detective hired to investigate
 > "cheating" partners. **9 out of 10 cases are gloriously innocent** (a sweet,

@@ -8,11 +8,7 @@
     "scheme": "detectivebunty",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#0E1116",
-    "splash": {
-      "image": "./assets/app/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0E1116"
-    },
+    "newArchEnabled": true,
     "assetBundlePatterns": [
       "assets/**/*"
     ],
@@ -32,7 +28,15 @@
       "favicon": "./assets/app/icon.png"
     },
     "plugins": [
-      "expo-font"
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/app/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#0E1116"
+        }
+      ]
     ]
   }
 }
