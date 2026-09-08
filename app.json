@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Detective Bunty",
+    "slug": "detective-bunty",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app/icon.png",
+    "scheme": "detectivebunty",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E1116",
+    "splash": {
+      "image": "./assets/app/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E1116"
+    },
+    "assetBundlePatterns": [
+      "assets/**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.togarvi.detectivebunty"
+    },
+    "android": {
+      "package": "com.togarvi.detectivebunty",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app/adaptive-icon.png",
+        "backgroundColor": "#0E1116"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/app/icon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
